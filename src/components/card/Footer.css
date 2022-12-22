@@ -1,0 +1,101 @@
+footer {
+    background-color: black;
+    color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    width: 100vw;
+  }
+  .footer-top {
+    display: flex;
+    border-bottom: 1px solid rgb(148, 148, 148);
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .question {
+    width: 300px;
+    margin-right: 90px;
+  }
+  p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.5s;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+  }
+  p a:hover {
+    color: red;
+  }
+  .company {
+    margin-right: 90px;
+  }
+  .client {
+    margin-right: 90px;
+  }
+  .question h3 {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .company h3,
+  .client h3,
+  .information h3 {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .social-icon {
+    text-align: center;
+    width: 170px;
+    border-top: 1px solid rgb(193, 193, 193);
+    padding-top: 10px;
+    margin-top: 30px;
+  }
+  .social-icon a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .social-icon a:hover{
+    color: #fff;
+  }
+  .network-icon {
+    font-size: 17px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .network-icon:hover {
+    transform: scale(1.1);
+  }
+  /* Footer top end */
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 5px;
+  }
+  .footer-bottom .left-footer-card {
+    display: flex;
+  }
+  .footer-bottom .left-footer-card img {
+    width: 70px;
+    padding: 2px 13px;
+    object-fit: contain;
+    border-radius: 4px;
+    height: auto;
+    background-color: #fff;
+    margin-right: 15px;
+  }
+  .footer-bottom .right-footer-card {
+    display: flex;
+  }
+  .footer-bottom .right-footer-card img {
+    width: 120px;
+    padding: 0 18px;
+    object-fit: contain;
+    border-radius: 7px;
+    height: auto;
+    background-color: #fff;
+    margin-right: 15px;
+  }
